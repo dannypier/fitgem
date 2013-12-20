@@ -16,6 +16,7 @@ module Fitgem
     #
     # @return [Hash] Friends' information
     def leaderboard
+      puts "Got leaderboards using dp's repo"
       get("/user/#{@user_id}/friends/leaderboard.json")
     end
 
